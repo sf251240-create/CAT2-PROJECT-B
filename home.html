@@ -14,104 +14,178 @@
     />
   </head>
   <body>
-    <header class="site-header container">
-      <div class="brand">
+    <header>
+      <div>
         <ul>
           <li>Community</li>
           <li>Science Museum</li>
         </ul>
       </div>
 
-      <form class="search-form" role="search">
+      <form>
         <input type="text" placeholder="Search" />
         <button type="submit">Search</button>
       </form>
 
-      <div class="header-actions">
-        <a href="#" aria-label="Cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
-        <a href="#" aria-label="Account"><i class="fa-solid fa-user"></i></a>
-        <div class="auth-links">
+      <div>
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        <a href="#"
+          ><span><i class="fa-solid fa-user"></i></span
+        ></a>
+        <div>
           <ul>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Register</a></li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+            <li>
+              <a href="#">Register</a>
+            </li>
           </ul>
         </div>
       </div>
     </header>
 
-    <nav class="main-nav">
+    <nav>
       <ul>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/museum_programs">Museum Programs</a></li>
-        <li><a href="/explore">Explore</a></li>
-        <li><a href="/events">Events</a></li>
-        <li><a href="/exhibitions">Exhibitions</a></li>
-        <li><a href="/visitus">Visit Us</a></li>
+        <li>
+          <a href="/home">Home</a>
+        </li>
+        <li>
+          <a href="/museum_programs">Museum Programs</a>
+        </li>
+        <li>
+          <a href="/explore">Explore</a>
+        </li>
+        <li>
+          <a href="/events">Events</a>
+        </li>
+        <li>
+          <a href="/exhibitions">Exhibitions</a>
+        </li>
+        <li>
+          <a href="/visitus">Visit Us</a>
+        </li>
       </ul>
     </nav>
 
-    <section class="hero">
-      <img src="homeimagetop.jpg" alt="Museum hero" class="hero-img" />
+    <section style="width: 100%; overflow: hidden">
+      <img
+        src="homeimagetop.jpg"
+        style="width: 100%; height: auto; display: block"
+      />
     </section>
 
-    <section class="intro">
-      <div class="container">
-        <p class="lead">
-          Over the course of human history, science has developed from our early
-          understanding of fire, wind, water and earth to exploring everything
-          from galaxies far away to the very building blocks of life itself.
+    <section
+      style="padding: 60px 40px; text-align: center; background-color: #f9f9f9"
+    >
+      <p
+        style="
+          font-size: 22px;
+          font-weight: bold;
+          max-width: 900px;
+          margin: 0 auto;
+          line-height: 1.8;
+        "
+      >
+        Over the course of human history, science has developed from our early
+        understanding of fire, wind, water and earth to exploring everything
+        from galaxies far away to the very building blocks of life itself.
+      </p>
+    </section>
+
+    <section
+      style="display: flex; align-items: center; padding: 60px 40px; gap: 40px"
+    >
+      <img
+        src="kid-touches-robot.jpg"
+        style="flex: 1; max-width: 100%; height: auto; border-radius: 8px"
+      />
+      <div style="flex: 1; padding: 0 20px">
+        <h2 style="font-size: 32px; color: #333; margin-bottom: 20px">
+          Cosmology
+        </h2>
+        <p style="font-size: 16px; line-height: 1.8; color: #555">
+          Explore the wonders of our cosmos. Our fantastic exhibition, 'The Sky
+          Above Us', explores the night sky and what we can see and know about
+          the universe around us. We'll locate the various constellations and
+          galaxies that can be seen and learn a bit about the early navigators
+          who used the stars to travel by.
         </p>
       </div>
     </section>
 
-    <section class="two-col container">
-      <img src="kid-touches-robot.jpg" alt="Kid and robot" class="rounded" />
-      <div class="two-col-content">
-        <h2>Cosmology</h2>
-        <p>
-          Explore the wonders of our cosmos. Our fantastic exhibition, "The Sky
-          Above Us", explores the night sky and what we can see and know about
-          the universe around us. We'll locate constellations and learn about
-          early navigators who used the stars to travel.
-        </p>
+    <section style="padding: 60px 40px; background-color: #f9f9f9; text-align: center">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 900px; margin: 0 auto;">
+        <div style="text-align: center;">
+          <a href="/home" style="display: inline-block; padding: 20px 80px; border-radius: 100px / 40px; text-decoration: none; font-size: 22px; font-weight: bold; color: #fff; background-color: #5cb85c; transition: all 0.3s ease; min-width: 180px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">Home</a>
+        </div>
+        <div style="text-align: center;">
+          <a href="/events" style="display: inline-block; padding: 20px 80px; border-radius: 100px / 40px; text-decoration: none; font-size: 22px; font-weight: bold; color: #fff; background-color: #5dade2; transition: all 0.3s ease; min-width: 180px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">Events</a>
+        </div>
+        <div style="text-align: center;">
+          <a href="/museum_programs" style="display: inline-block; padding: 20px 80px; border-radius: 100px / 40px; text-decoration: none; font-size: 22px; font-weight: bold; color: #fff; background-color: #9b59b6; transition: all 0.3s ease; min-width: 180px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">Programs</a>
+        </div>
+        <div style="text-align: center;">
+          <a href="/exhibitions" style="display: inline-block; padding: 20px 80px; border-radius: 100px / 40px; text-decoration: none; font-size: 22px; font-weight: bold; color: #fff; background-color: #1c3c7c; transition: all 0.3s ease; min-width: 180px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">Exhibitions</a>
+        </div>
+        <div style="text-align: center;">
+        <div class="footer-btn-row">
+          <a href="/events" class="btn-ellipse btn-blue">Events</a>
+        </div>
+        <div class="footer-btn-row">
+          <a href="/museum_programs" class="btn-ellipse btn-purple">Programs</a>
+        </div>
+        <div class="footer-btn-row">
+          <a href="/exhibitions" class="btn-ellipse btn-darkblue"
+            >Exhibitions</a
+          >
+        </div>
+        <div class="footer-btn-row">
+          <a href="/explore" class="btn-ellipse btn-green">Explore</a>
+        </div>
+        <div class="footer-btn-row">
+          <a href="/visitus" class="btn-ellipse btn-blue">Visit Us</a>
+        </div>
       </div>
-    </section>
-
-    <section class="button-grid container" aria-label="Quick links">
-      <a href="/home" class="btn-ellipse btn-green">Home</a>
-      <a href="/events" class="btn-ellipse btn-blue">Events</a>
-      <a href="/museum_programs" class="btn-ellipse btn-purple">Programs</a>
-      <a href="/exhibitions" class="btn-ellipse btn-darkblue">Exhibitions</a>
-      <a href="/explore" class="btn-ellipse btn-green">Explore</a>
-      <a href="/visitus" class="btn-ellipse btn-blue">Visit Us</a>
     </section>
 
     <footer>
-      <div class="footer-grid container">
+      <div class="footer-grid">
         <div class="footer-col">
           <h3 class="footer-heading">Follow us</h3>
           <div class="footer-icons">
-            <a href="#" class="footer-icon"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="footer-icon"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="#" class="footer-icon"><i class="fa-brands fa-tiktok"></i></a>
-            <a href="#" class="footer-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="footer-icon"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+            <a href="#" class="footer-icon"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
           </div>
         </div>
         <div class="footer-col">
           <h3 class="footer-heading">Pay With</h3>
           <div class="footer-pay">
-            <img src="visa.png" class="payment-img" alt="Visa" />
-            <img src="mastercard.png" class="payment-img" alt="Mastercard" />
+              <img src="visa.png" class="payment-img" />
+              <img src="mastercard.png" class="payment-img" />
           </div>
         </div>
       </div>
-
-      <div class="footer-bottom container">
-        <div class="footer-bottom-left">Community<br />Science museum</div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          Community<br />
+          Science museum
+        </div>
         <div class="footer-bottom-right">Tel. +256757886712</div>
       </div>
-
-      <div style="width: 100%; height: 4px; background: #222; margin: 0 auto"></div>
+      <div
+        style="width: 100%; height: 4px; background: #222; margin: 0 auto"
+      ></div>
     </footer>
   </body>
 </html>
